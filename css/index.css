@@ -19,7 +19,7 @@ body{
     width: 50%;
     color: white;
     border-radius: 20px;
-    padding: 20px 15px;
+    padding: 50px;
     margin: 20px auto 0;
     text-align: center;
     background: linear-gradient(135deg, #99ddccbd, rgba(85, 187, 85, 0.151));
@@ -69,4 +69,23 @@ body{
 
 .weather h3{
     margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.col{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.col img{
+    width: 70px;
 }
