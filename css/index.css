@@ -16,7 +16,7 @@ body{
 }
 
 .card{
-    width: 50%;
+    width: 40%;
     color: white;
     border-radius: 20px;
     padding: 50px;
@@ -83,9 +83,9 @@ body{
     flex-direction: row;
     text-align: left;
     align-items: center;
-    gap: 10px;
 }
 
 .col img{
     width: 70px;
+    margin-right: 10px;
 }
