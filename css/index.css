@@ -10,5 +10,24 @@
 body{
     width: 100%;
     font-size: 16px;
+    background-color: black;
+    padding: 20px;
     font-family: 'Overpass', sans-serif;
+}
+
+.card{
+    width: 70%;
+    color: white;
+    border-radius: 20px;
+    padding: 20px 15px;
+    margin: 20px auto 0;
+    text-align: center;
+    background: linear-gradient(135deg, #99ddccbd, rgba(85, 187, 85, 0.151));
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
