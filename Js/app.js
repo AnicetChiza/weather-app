@@ -3,6 +3,7 @@ const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 
 const inputBox = document.querySelector('.search input');
 const inputBtn = document.querySelector('.search button');
+const weatherIcon = document.querySelector('weather-icon');
 
 async function checkWeather(city){
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
@@ -14,6 +15,10 @@ async function checkWeather(city){
     document.querySelector('.temp').innerHTML = Math.round(data.main.temp) + '°c';
     document.querySelector('.humidity').innerHTML = data.main.humidity + '%';
     document.querySelector('.wind').innerHTML = data.wind.speed + ' km/h';
+
+    if(data.weather[0].main == 'clouds'){
+        weatherIcon.src = 'images/clouds.png';
+    }
 }
 
 inputBtn.addEventListener('click', ()=>{
