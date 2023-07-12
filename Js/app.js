@@ -31,9 +31,6 @@ async function checkWeather(city){
     else if(data.weather[0].main == 'snow'){
         weatherIcon.src = 'images/snow.png';
     }
-    else if(data.weather[0].main == 'snow'){
-        weatherIcon.src = 'images/drizzle.png';
-    }
 
 }
 
