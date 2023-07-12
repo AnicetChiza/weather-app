@@ -19,6 +19,22 @@ async function checkWeather(city){
     if(data.weather[0].main == 'clouds'){
         weatherIcon.src = 'images/clouds.png';
     }
+    else if(data.weather[0].main == 'rain'){
+        weatherIcon.src = 'images/rain-icon.png';
+    }
+    else if(data.weather[0].main == 'clear'){
+        weatherIcon.src = 'images/clear-icon.png';
+    }
+    else if(data.weather[0].main == 'drizzle'){
+        weatherIcon.src = 'images/drizzle.png';
+    }
+    else if(data.weather[0].main == 'snow'){
+        weatherIcon.src = 'images/snow.png';
+    }
+    else if(data.weather[0].main == 'snow'){
+        weatherIcon.src = 'images/drizzle.png';
+    }
+
 }
 
 inputBtn.addEventListener('click', ()=>{
