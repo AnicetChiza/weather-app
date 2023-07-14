@@ -57,6 +57,13 @@ body{
     height: 40px;
 }
 
+.error{
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: rgb(252, 5, 5);
+}
+
 .weather-icon{
     width: 350px;
     margin-top: 15px;
