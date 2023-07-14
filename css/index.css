@@ -116,6 +116,9 @@ body{
     .col img{
         width: 40px;
     }
+    .search{
+        justify-content: space-between;
+    }
     .search input{
         flex: 0;
         font-size: 16px;
