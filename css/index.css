@@ -118,9 +118,7 @@ body{
         justify-content: space-between;
     }
     .search input{
-        flex: 0;
         font-size: 16px;
         padding: 8px 12px;
-        margin-right: 3px;
     }
 }
