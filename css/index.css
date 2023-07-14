@@ -61,7 +61,7 @@ body{
     text-align: left;
     margin-top: 10px;
     font-weight: bolder;
-    color: rgb(252, 5, 5);
+    color: rgba(165, 30, 30, 0.623);
 }
 
 .weather-icon{
