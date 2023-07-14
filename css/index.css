@@ -114,8 +114,8 @@ body{
     .col img{
         width: 40px;
     }
-    .search{
-        justify-content: space-between;
+    .card{
+        margin: 10px auto 0;
     }
     .search input{
         font-size: 16px;
